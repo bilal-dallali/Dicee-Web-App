@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background: url('img/newbackground.png') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-image-views {
+    margin: 100px auto;
+}
+
+.dice-image-view-1 {
+    margin-right: 25px;
+}
+
+.dice-image-view-2 {
+    margin-left: 25px;
+}
+
+.roll-button {
+    width: 154px;
+    height: 78px;
+    color: white;
+    font-size: 30px;
+    background-color: #8E2925;
+    border: none;
+    cursor: pointer;
+}
